@@ -1,13 +1,12 @@
 # ENNreg
-Python implementation of ENNreg. 
-(An R package of ENNreg is publicly available on the CRAN web site (https://cran.r-project.org/web/packages/evreg/index.html).)
+(An R package of ENNreg is publicly available on the CRAN website (https://cran.r-project.org/web/packages/evreg/index.html).)
 
-The Python code implements  ENNreg, a neural network model for regression in which prediction uncertainty is quantified by Gaussian random fuzzy numbers (GRFNs), a newly introduced family of random fuzzy subsets of the real line that generalizes both Gaussian random variables and Gaussian possibility distributions. The output GRFN is constructed by combining GRFNs induced by prototypes using a combination operator that generalizes Dempster's rule of Evidence Theory. The three output units indicate the most plausible  value of the response variable, variability around this value, and epistemic uncertainty. The network is trained by minimizing a loss function that generalizes the negative log-likelihood. 
+The Python code implements ENNreg, a neural network model for regression in which prediction uncertainty is quantified by Gaussian random fuzzy numbers (GRFNs), a newly introduced family of random fuzzy subsets of the real line that generalizes both Gaussian random variables and Gaussian possibility distributions. The output GRFN is constructed by combining GRFNs induced by prototypes using a combination operator that generalizes Dempster's rule of Evidence Theory. The three output units indicate the most plausible  value of the response variable, variability around this value, and epistemic uncertainty. The network is trained by minimizing a loss function that generalizes the negative log-likelihood. 
 
 Readers are invited to read the papers mentioned below to explore the main concepts underlying epistemic random fuzzy sets and evidential regression.
 
 
-If you find this code useful, please cite the following papers:
+If you find this code useful and use it in your own research, please cite the following papers:
 
 ######### Citing this paper ########
 ```bash
