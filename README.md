@@ -1,4 +1,9 @@
 # ENNreg
+Code for paper 
+
+"Quantifying Prediction Uncertainty in Regression using Random Fuzzy Sets: the ENNreg model"
+
+
 (An R package of ENNreg is publicly available on the CRAN website (https://cran.r-project.org/web/packages/evreg/index.html).)
 
 The Python code implements ENNreg, a neural network model for regression in which prediction uncertainty is quantified by Gaussian random fuzzy numbers (GRFNs), a newly introduced family of random fuzzy subsets of the real line that generalizes both Gaussian random variables and Gaussian possibility distributions. The output GRFN is constructed by combining GRFNs induced by prototypes using a combination operator that generalizes Dempster's rule of Evidence Theory. The three output units indicate the most plausible  value of the response variable, variability around this value, and epistemic uncertainty. The network is trained by minimizing a loss function that generalizes the negative log-likelihood. 
