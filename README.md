@@ -13,7 +13,7 @@ Readers are invited to read the papers mentioned below to explore the main conce
 
 If you find this code useful and use it in your own research, please cite the following papers:
 
-######### Citing this paper ########
+######### Citing our work ########
 ```bash
 @article{denoeux2023quantifying,
   title={Quantifying prediction uncertainty in regression using random fuzzy sets: the ENNreg model},
